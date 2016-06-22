@@ -1,0 +1,38 @@
+/*
+| Kevin Eger
+| Minimal bio
+| Main styling
+*/
+
+html, body {
+	background-color: #203350!important;
+	color: #FFFFFE!important;
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+.container.padded {
+	padding-top:10%;
+}
+
+h1, h2 {
+	text-transform: lowercase;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 48px;
+	letter-spacing: 5px;
+	text-transform: lowercase;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 24px;
+	color: #B6B6B6;
+	line-height: 2em;
+	letter-spacing: 5px;
+	text-transform: lowercase;
+}
