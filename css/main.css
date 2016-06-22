@@ -4,16 +4,25 @@
 | Main styling
 */
 
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 html, body {
-	background-color: #203350!important;
+	background-color: #2F657A;
 	color: #FFFFFE!important;
 	
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	line-height: 1.6em;
 }
 
 .container.padded {
+	padding-top:10%;
+}
+
+.background-info {
 	padding-top:10%;
 }
 
@@ -35,4 +44,26 @@ h2 {
 	line-height: 2em;
 	letter-spacing: 5px;
 	text-transform: lowercase;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 24px;
+	margin:0;
+}
+h5 {
+	font-size: 14px;
+	margin-top:10px;
+}
+
+.social a { 
+	color: inherit; 
+} 
+
+.social .fa {
+	margin-right:10px;
+}
+.social .fa:hover {
+	color: #B6B6B6;
+	cursor: pointer;
 }
